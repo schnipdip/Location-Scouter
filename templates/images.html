@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Raspberry Pi Location Scouter {% endblock %}</h1>
+
+
+  <br/>
+  <br/>
+    <div class="img">
+    <img class="img" src="{{ url_for('static', filename = path ) }}" style="width: 100%;" alt="User Image">
+  </div>
+
+    <br/>
+    <br/>
+  <div>
+    <a href="https://maps.google.com/maps?q={{latt}},{{longg}}">
+
+    <button type="submit"  style="margin:5px;" class="btn btn-primary">Show In Google Map</button>
+    </a>
+    <a href="https://maps.apple.com/maps?q={{latt}},{{longg}}">
+
+    <button style="margin:5px;" type="submit"  class="btn btn-primary">Show In Apple Map</button>
+    </a>
+  </div>
+{% endblock %}
