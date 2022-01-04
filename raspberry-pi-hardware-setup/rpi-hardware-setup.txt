@@ -1,0 +1,7 @@
+# Requirements and Where to Purchase
+1. Raspberry Pi
+2. GPS
+3. Button
+
+# Pin out setup
+1. [ view hardware image setup #1 ]
