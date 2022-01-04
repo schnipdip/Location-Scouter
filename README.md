@@ -4,3 +4,7 @@ Location Scouter for Raspberry Pi. A simple to use application for the Raspberry
 
 ## Requirements
 The requirements for Python can be installed via the requirements.txt file.
+
+Need to modify the `server.py` script and modify the google api key.
+
+A google api key needs to be generated for Google Maps.
