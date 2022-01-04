@@ -1,7 +1,7 @@
 # Requirements and Where to Purchase
-1. Raspberry Pi
-2. GPS
-3. Button
+1. Raspberry Pi - https://www.raspberrypi.com/products/
+2. Adafruit Ultimate GPS - https://learn.adafruit.com/adafruit-ultimate-gps
+3. Button - 
 
 # Pin out setup
 1. [ view hardware image setup #1 ]
