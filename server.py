@@ -22,7 +22,7 @@ app = Flask(__name__)
 '''start of script functions'''
 
 def inst_google():
-    api_key = 'AIzaSyAu9508Ek_347J2CGHR0kRweaiYOQPVmdM'
+    api_key = 'xxxx'
 
     return api_key
 
